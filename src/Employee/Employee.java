@@ -61,12 +61,12 @@ public abstract class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", phoneNumber=" + phoneNumber +
-                ", email='" + email + '\'' +
-                '}';
+                ", email='" + email + '\''
+                ;
     }
 }
